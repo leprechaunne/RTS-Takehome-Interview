@@ -5,3 +5,6 @@ private variables, with only __variables being hidden from the listing function,
 backend, this doesn't matter TOO much because all the calculations are handled off of client computers, but it'd be a great
 quality of life feature for PiP releases or similar small scripts. A big argument against this is that with the pointers stored,
 private variables aren't safe in any language, but most of internet security is adding hurdles, not creating impenetrable systems.
+	The only other thing I would change is function inputs, because overloading function with the same number of variables and the 
+memory reference problems with defaulting an array can be a headache. But they exist because Python is such a flexible language so 
+it's with the territory.
