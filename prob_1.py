@@ -20,8 +20,8 @@ def calc_above_below(nums, target):
 			elif num < target:
 				below += 1
 
-		# uncomment for extra print for debugging
-		# print("\n", nums, ", target: ", target, sep="")
+		# comment to hide extra print for debugging
+		print("\n", nums, ", target: ", target, sep="")
 		print("above: ", above, ", below: ",below, sep="")
 
 

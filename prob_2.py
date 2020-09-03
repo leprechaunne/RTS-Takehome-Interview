@@ -28,6 +28,8 @@ def rotate_str(input_str, rotations):
 	rotated_str = input_str[slice_point:] + input_str[0:slice_point]
 
 	# tostring
+	# extra print for debugging
+	print("\n", input_str, ", Rotations: ", rotations, sep="")
 	print(rotated_str)
 
 # Test Cases
