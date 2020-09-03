@@ -1,0 +1,7 @@
+#3  If you could change 1 thing about your favorite framework/language/platform (pick one), what would it be?
+
+	If I could change one thing about Python, it would definitely be the privacy aspect. Python lacks any real kind of 
+private variables, with only __variables being hidden from the listing function, but still changeable from any scope. In the
+backend, this doesn't matter TOO much because all the calculations are handled off of client computers, but it'd be a great
+quality of life feature for PiP releases or similar small scripts. A big argument against this is that with the pointers stored,
+private variables aren't safe in any language, but most of internet security is adding hurdles, not creating impenetrable systems.
